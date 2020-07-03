@@ -193,7 +193,7 @@ void modo2jugadores() {
             puntuacion_jugador += puntuacion_ronda;
         }
 
-        if(puntuacion_jugador + puntuacion_ronda == 10000 && no_combinacion == false && jugador_1 == true){
+        if(puntuacion_jugador + puntuacion_ronda == 10000 && no_combinacion == false && jugador_1 == true && puntuacion_ronda != 5000){
             puntuacion_jugador += puntuacion_ronda;
 		}
 
@@ -201,7 +201,7 @@ void modo2jugadores() {
             puntuacion_jugador2 += puntuacion_ronda;
         }
 
-        if(puntuacion_jugador2 + puntuacion_ronda == 10000 && no_combinacion == false && jugador_2 == true){
+        if(puntuacion_jugador2 + puntuacion_ronda == 10000 && no_combinacion == false && jugador_2 == true && puntuacion_ronda != 5000){
             puntuacion_jugador2 += puntuacion_ronda;
 		}
         if (fin_juego == false) {
