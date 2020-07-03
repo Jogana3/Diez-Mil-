@@ -195,7 +195,7 @@ void modo1jugador() {
             puntuacion_jugador += puntuacion_ronda;
         }
 
-        if(puntuacion_jugador + puntuacion_ronda == 10000 && no_combinacion == false){
+        if(puntuacion_jugador + puntuacion_ronda == 10000 && no_combinacion == false && puntuacion_ronda != 5000){
             puntuacion_jugador += puntuacion_ronda;
             ronda_ganador = ronda;
 		}
